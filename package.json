@@ -1,9 +1,10 @@
 {
   "name": "tn-firerate",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": " ",
   "keywords": [],
   "main": "dist/index.cjs.js",
+  "types": "dist/index.d.ts",
   "module": "dist/index.esm.js",
   "scripts": {
     "Serve": "parcel .dev/parcel/index.html --out-dir .dev/parcel/dist --cache-dir .dev/parcel/cache --open",
