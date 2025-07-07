@@ -4,13 +4,13 @@ export class FireRate {
   private callback: () => void = () => void 0
 
   constructor(duration?: number) {
-    this.duration = duration || 100
+    this.duration = duration ?? 100
   }
 
   public queue(callback: () => void, duration?: number) {
     this.callback = callback
     this.increase()
-    setTimeout(() => this.handleCall(), duration || this.duration)
+    setTimeout(() => this.handleCall(), duration ?? this.duration)
   }
 
   private lastcall = 0
