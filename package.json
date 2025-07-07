@@ -1,11 +1,10 @@
 {
   "name": "tn-firerate",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": " ",
   "keywords": [],
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
-  "types": "dist/types/index.d.ts",
   "scripts": {
     "Serve": "parcel .dev/parcel/index.html --out-dir .dev/parcel/dist --cache-dir .dev/parcel/cache --open",
     "Build": "rimraf dist && rollup -c",
